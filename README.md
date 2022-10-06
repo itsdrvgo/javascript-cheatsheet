@@ -2,8 +2,6 @@
 
 ## From the Author:
 
----
-
 This beautiful notes was made by Wreaking#9752. Join my Discord Server: https://discord.gg/Z7JXdVbE2J
 
 - I made these notes, because I usually forget some stuff about JavaScript. So I used to refer from these notes.
@@ -13,8 +11,6 @@ This beautiful notes was made by Wreaking#9752. Join my Discord Server: https://
 - I recommend you to use https://replit.com and select node.js or JavaScript.
 
 ## Introduction:
-
----
 
 First of all you need to be good at Algebra and basic Mathematics, and if you're not, make sure to brush up those concepts.
 
@@ -37,7 +33,7 @@ Declaring variables in JS are,
 There are differences in using these 3 declaring variable, here's a simple table that explains it all,
 
 | Declaring Variable | Block Scoped     | Creates Global Property   | Re-assignable         |  Re-declarable    |
-| :---:              | :---:            |    :----:                 |          :---:        |         :---:     |
+| :---:              | :---:            |    :---:                 |          :---:        |         :---:     |
 | `var`              | ❌               | ✔                        | ✔                     | ✔                |
 | `let`              | ✔                | ❌                       | ✔                     | ❌               |
 | `const`            | ✔                | ❌                       | ❌                    |❌                |
@@ -74,8 +70,6 @@ In this case, `x` can be used outside the block, because `var` doesn't have `Blo
 
 ## Variables:
 
----
-
 Variables are used to store temporary data. For an example,
 
 ```js
@@ -96,8 +90,6 @@ console.log(z) // Value of z will be 15
 ```
 
 ## Data Types:
-
----
 
 The set of types in the JavaScript language consists of `Primitive Values` and `Objects`.
 
@@ -143,8 +135,6 @@ Get a detailed infomration at [here](https://developer.mozilla.org/en-US/docs/We
 
 ## Try It Yourself:
 
----
-
 Log the values of these given problems.
 
 ```js
@@ -162,8 +152,6 @@ console.log(y)
 
 ## Explanation:
 
----
-
 ```js
 const x = 5
 ```
@@ -171,8 +159,6 @@ const x = 5
 > In this code, `const` is a declaration. `x` is the a defined as a variable. `=` is assignment 
 
 ## Operators:
-
----
 
 
 > Operators are defined as the basic Mathematical addition, subraction, multiplication and more, `+`, `-`, `*`, `/`.
@@ -184,8 +170,6 @@ For example,
 ```
 
 ## Expression:
-
----
 
 > Expression is a combination of values, variables, and operators, which computes (to calculate an answer or amount by using a machine) to a value.
 
@@ -211,8 +195,6 @@ console.log(z)
 
 ## Comments:
 
----
-
 > `//` -> Two forward slashes place one after another are known as a comment. It can be used to explain a particular statement or a bunch of statement. Texts written inside it are ignored by JS hence, they cannot be executed.
 
 For example,
@@ -235,8 +217,6 @@ let y = "sus" -> These three lines of codes will be ignored and won't be execute
 
 ## Identifiers:
 
----
-
 > JavaScript Identifiers are named as variables, functions, etc.
 
 > **Caution:**<br>
@@ -256,8 +236,6 @@ console.log(surname) // Result will be "king"
 > `Note:` Before assigning the two variables to their values, if we console logged the two variables, we'd get `undefined`.
 
 ## Camel Case:
-
----
 
 > **What is it?**<br>
 When multiple words are used to form a variable, `camel case` joins those words together, without any white space, and delineates (to describe) the start of each new word with a capital letter.
